@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register Page</title>
+  <link rel="stylesheet" href="register.css" />
+</head>
+<body>
+
+  <div class="register-container">
+    <h2>Create Your Account</h2>
+    <form action="#" autocomplete="off">
+      
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" placeholder="Enter first name">
+      <span id="fn"></span>
+      <br><br>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" placeholder="Enter last name">
+      <br><br>
+
+      <label for="un">Username</label>
+      <input type="text" id="un" name="un" placeholder="Choose a username">
+      <span id="test"></span>
+      <br><br>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" required>
+      
+      <br><br>
+
+      <label for="pass">Password</label>
+        <input type="password" placeholder="Enter Password" name="pass" id="pass">
+        <span id="cap"></span>
+        <span id="num"></span>
+        <span id="sm"></span>
+        <span id="sp"></span>
+        <br><br>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+      <span id="ph"></span>
+      <br><br>
+
+      <label for="we">Weight in kg</label>
+      <input type="text" id="we" name="we" placeholder="Enter your weight">
+      <span id="w"></span>
+      <br><br>
+
+      <label for="height">Height in feet</label>
+      <input type="text" id="height" name="height" placeholder="Enter your Heigth">
+      <span id="h"></span>
+      <br><br>
+
+      <label>Gender</label>
+      <div class="gender-options">
+        <label><input type="radio" name="gender" value="Male" required> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+        <label><input type="radio" name="gender" value="Other"> Other</label>
+      </div>
+      <br><br>
+
+
+      <label for="pay">Payment</label>
+      <select name="pay" id="pay">
+        <option value="credit">Credit Card</option>
+        <option value="debit">Debit Card</option>
+        <option value="bKash">bKash</option>
+        <option value="rocket">Rocket</option>
+        <option value="nagad">Nagad</option>
+        <option value="bank">Bank Transfer</option>
+      </select>
+
+      <input type="submit" value="Sing Up"">
+
+      
+
+    </form>
+  </div>
+  <script src="register.js"></script>
+
+</body>
+</html>

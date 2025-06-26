@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 20px 40px;
+  }
+  .nav-logo h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f44336;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  .nav-links li a:hover {
+    color: #f44336;
+  }
+
+  /* Hero Section */
+  .hero {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+  }
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  .hero-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .hero-text button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  .hero-text button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+  }
+
+  /* Description Section */
+  .description {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .description h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .description p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 40px auto;
+    gap: 20px;
+    justify-content: center;
+  }
+
+ 
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    flex: 1 1 200px;
+    max-width: 220px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+   .card1 {
+    background: rgb(75, 131, 75);
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    flex: 1 1 200px;
+    max-width: 220px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+   .card2 {
+    background: blue;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    flex: 1 1 200px;
+    max-width: 220px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+   .card3 {
+    background: rgb(129, 213, 129);
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    flex: 1 1 200px;
+    max-width: 220px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+  .card .card1 .card2 .card3:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  }
+  .card-icon {
+    font-size: 50px;
+    color: #f44336;
+    margin-bottom: 15px;
+  }
+  .card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  .card p {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .simple-footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  margin-top: 40px;
+}
